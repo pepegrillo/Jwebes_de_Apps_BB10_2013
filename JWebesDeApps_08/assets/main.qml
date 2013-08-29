@@ -128,10 +128,5 @@ NavigationPane {
         }
     ]
 
-    onTopChanged: {
-        if (page == customlist) {
-            // We want to only display in portrait-mode in this view, so if it has been changed, let's reset it.
-            OrientationSupport.supportedDisplayOrientation = SupportedDisplayOrientation.DisplayPortrait;
-        }
-    }
+    
 }
